@@ -2,3 +2,4 @@
 rmdir /my_first_directory
 mkdir /tmp
 rmdir rmdir /my_first_directory
+rm -d rmdir /my_first_directory
