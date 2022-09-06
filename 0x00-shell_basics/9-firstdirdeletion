@@ -1,5 +1,10 @@
 #!/bin/bash
+<<<<<<< HEAD
 rmdir /my_first_directory
 mkdir /tmp
 rmdir rmdir /my_first_directory
 rm -d rmdir /my_first_directory
+=======
+
+
+>>>>>>> c756c18c59b5ee1b66a19f71fb3d361a1f421035
