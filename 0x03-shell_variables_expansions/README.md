@@ -1,9 +1,9 @@
-julien@production-503e7013:~$ export POWER=42784
+julien@production-503e7013:~/$ export BREATH=4
 
-julien@production-503e7013:~$ export DIVIDE=32
+julien@production-503e7013:~/$ export LOVE=3
 
-julien@production-503e7013:~$ ./9-divide_and_rule | cat -e
+julien@production-503e7013:~/$ ./10-love_exponent_breath
 
-1337$
+64
 
-julien@production-503e7013:~$
+julien@production-503e7013:~/$
