@@ -1,75 +1,43 @@
-julien@ubuntu:/tmp/0x03$ source ./4-global_variables
+julien@ubuntu:/tmp/0x03$ . ./5-local_variables
 
-CC=gcc
+BASH=/bin/bash
 
-CDPATH=.:~:/usr/local:/usr:/
+BASHOPTS=checkwinsize:cmdhist:complete_fullquote:expand_aliases:extglob:extquote:force_fignore:histappend:interactive_comments:progcomp:promptvars:sourcepath
 
-CFLAGS=-O2 -fomit-frame-pointer
+BASH_ALIASES=()
 
-COLORTERM=gnome-terminal
+BASH_ARGC=()
 
-CXXFLAGS=-O2 -fomit-frame-pointer
+BASH_ARGV=()
 
-DISPLAY=:0
+BASH_CMDS=()
 
-DOMAIN=hq.garrels.be
+BASH_COMPLETION_COMPAT_DIR=/etc/bash_completion.d
 
-e=
+BASH_LINENO=()
 
-TOR=vi
+BASH_REMATCH=()
 
-FCEDIT=vi
+BASH_SOURCE=()
 
-FIGNORE=.o:~
+BASH_VERSINFO=([0]="4" [1]="3" [2]="46" [3]="1" [4]="release" [5]="x86_64-pc-linux-gnu")
 
-G_BROKEN_FILENAMES=1
+BASH_VERSION='4.3.46(1)-release'
 
-GDK_USE_XFT=1
+CLUTTER_IM_MODULE=xim
 
-GDMSESSION=Default
+COLUMNS=133
 
-GNOME_DESKTOP_SESSION_ID=Default
+COMPIZ_CONFIG_PROFILE=ubuntu
 
-GTK_RC_FILES=/etc/gtk/gtkrc:/nethome/franky/.gtkrc-1.2-gnome2
+COMP_WORDBREAKS=$' \t\n"\'><=;|&(:'
 
-GWMCOLOR=darkgreen
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Fg27Lr20bq
 
-GWMTERM=xterm
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
 
-HISTFILESIZE=5000
-
-history_control=ignoredups
-
-HISTSIZE=2000
-
-HOME=/nethome/franky
-
-HOSTNAME=octarine.hq.garrels.be
-
-INPUTRC=/etc/inputrc
-
-IRCNAME=franky
-
-JAVA_HOME=/usr/java/j2sdk1.4.0
-
-LANG=en_US
-
-LDFLAGS=-s
-
-LD_LIBRARY_PATH=/usr/lib/mozilla:/usr/lib/mozilla/plugins
-
-LESSCHARSET=latin1
-
-LESS=-edfMQ
-
-LESSOPEN=|/usr/bin/lesspipe.sh %s
-
-LEX=flex
-
-LOCAL_MACHINE=octarine
-
-LOGNAME=franky
+DESKTOP_SESSION=ubuntu
 
 [...]
 
-julien@ubuntu:/tmp/0x03$ 
+julien@ubuntu:/tmp/0x03$
