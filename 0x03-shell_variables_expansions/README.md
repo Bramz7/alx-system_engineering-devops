@@ -1,9 +1,7 @@
-julien@production-503e7013:~/$ export BREATH=4
+julien@production-503e7013:~/$ export BINARY=10100111001
 
-julien@production-503e7013:~/$ export LOVE=3
+julien@production-503e7013:~/$ ./11-binary_to_decimal
 
-julien@production-503e7013:~/$ ./10-love_exponent_breath
-
-64
+1337
 
 julien@production-503e7013:~/$
