@@ -1,13 +1,11 @@
--rwxr-xr-x 1 root root 27 Sep  7 09:31 0-alias
+julien@ubuntu:/tmp/0x03$ echo $PATH
 
--rw-r--r-- 1 root root  0 Sep  7 09:31 file_1
+/home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 
--rw-r--r-- 1 root root  0 Sep  7 09:31 file_2
+julien@ubuntu:/tmp/0x03$ source ./2-path 
 
--rwxr-xr-x 1 root root 62 Sep  7 09:31 test_alias.sh
--rwxr-xr-x 1 root root 27 Sep  7 09:31 0-alias
+julien@ubuntu:/tmp/0x03$ echo $PATH
 
--rw-r--r-- 1 root root  0 Sep  7 09:31 file_1
+/home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/action
 
--rw-r--r-- 1 root root  0 Sep  7 09:31 file_2
-
+julien@ubuntu:/tmp/0x03$ 
