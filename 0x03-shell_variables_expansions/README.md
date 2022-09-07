@@ -1,19 +1,13 @@
-julien@production-503e7013:~/$ export DECIMAL=16
+julien@production-503e7013:~/shell/fun_with_the_shell$ cat quote
 
-julien@production-503e7013:~/$ ./100-decimal_to_hexadecimal
+"Everyone is a proponent of strong encryption."
 
-10
+- Dorothy E. Denning
 
-julien@production-503e7013:~/$ export DECIMAL=1337
+julien@production-503e7013:~/shell/fun_with_the_shell$ ./101-rot13 < quote
 
-julien@production-503e7013:~/$ ./100-decimal_to_hexadecimal | cat -e
+"Rirelbar vf n cebcbarag bs fgebat rapelcgvba."
 
-539$
+- Qbebgul R. Qraavat
 
-julien@production-503e7013:~/$ export DECIMAL=15
-
-julien@production-503e7013:~/$ ./100-decimal_to_hexadecimal | cat -e
-
-f$
-
-julien@production-503e7013:~/$
+julien@production-503e7013:~/shell/fun_with_the_shell$
