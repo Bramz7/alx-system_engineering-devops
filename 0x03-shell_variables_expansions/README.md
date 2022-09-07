@@ -1,3 +1,7 @@
-Name: BEST
+julien@production-503e7013:~$ export TRUEKNOWLEDGE=1209
 
-Value: School
+julien@production-503e7013:~$ ./8-true_knowledge | cat -e
+
+1337$
+
+julien@production-503e7013:~$
