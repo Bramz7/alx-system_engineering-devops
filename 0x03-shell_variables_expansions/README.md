@@ -1,18 +1,19 @@
-ubuntu@ip-172-31-63-244:~/0x03$ export NUM=0
+julien@production-503e7013:~/$ export DECIMAL=16
 
-ubuntu@ip-172-31-63-244:~/0x03$ ./13-print_float
+julien@production-503e7013:~/$ ./100-decimal_to_hexadecimal
 
-0.00
+10
 
-ubuntu@ip-172-31-63-244:~/0x03$ export NUM=98
+julien@production-503e7013:~/$ export DECIMAL=1337
 
-ubuntu@ip-172-31-63-244:~/0x03$ ./13-print_float
+julien@production-503e7013:~/$ ./100-decimal_to_hexadecimal | cat -e
 
-98.00
+539$
 
-ubuntu@ip-172-31-63-244:~/0x03$ export NUM=3.14159265359
+julien@production-503e7013:~/$ export DECIMAL=15
 
-ubuntu@ip-172-31-63-244:~/0x03$ ./13-print_float
+julien@production-503e7013:~/$ ./100-decimal_to_hexadecimal | cat -e
 
-3.14
+f$
 
+julien@production-503e7013:~/$
