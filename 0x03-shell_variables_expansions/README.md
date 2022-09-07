@@ -1,7 +1,33 @@
-julien@production-503e7013:~/$ export BINARY=10100111001
+julien@ubuntu:/tmp/0x03$ echo $((26 ** 2 -1))
 
-julien@production-503e7013:~/$ ./11-binary_to_decimal
+675
 
-1337
+julien@ubuntu:/tmp/0x03$ ./12-combinations | wc -l
 
-julien@production-503e7013:~/$
+675
+
+julien@ubuntu:/tmp/0x03$ 
+
+julien@ubuntu:/tmp/0x03$ ./12-combinations | tail -303 | head -10
+
+oi
+
+oj
+
+ok
+
+ol
+
+om
+
+on
+
+op
+
+oq
+
+or
+
+os
+
+julien@ubuntu:/tmp/0x03$
