@@ -1,15 +1,9 @@
-julien@ubuntu:/tmp/0x03$ echo $PATH
+julien@production-503e7013:~$ export POWER=42784
 
-/home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+julien@production-503e7013:~$ export DIVIDE=32
 
-julien@ubuntu:/tmp/0x03$ . ./3-paths 
+julien@production-503e7013:~$ ./9-divide_and_rule | cat -e
 
-11
+1337$
 
-julien@ubuntu:/tmp/0x03$ PATH=/home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:::::/hello
-
-julien@ubuntu:/tmp/0x03$ . ./3-paths 
-
-12
-
-julien@ubuntu:/tmp/0x03$
+julien@production-503e7013:~$
