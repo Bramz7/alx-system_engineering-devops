@@ -1,33 +1,18 @@
-julien@ubuntu:/tmp/0x03$ echo $((26 ** 2 -1))
+ubuntu@ip-172-31-63-244:~/0x03$ export NUM=0
 
-675
+ubuntu@ip-172-31-63-244:~/0x03$ ./13-print_float
 
-julien@ubuntu:/tmp/0x03$ ./12-combinations | wc -l
+0.00
 
-675
+ubuntu@ip-172-31-63-244:~/0x03$ export NUM=98
 
-julien@ubuntu:/tmp/0x03$ 
+ubuntu@ip-172-31-63-244:~/0x03$ ./13-print_float
 
-julien@ubuntu:/tmp/0x03$ ./12-combinations | tail -303 | head -10
+98.00
 
-oi
+ubuntu@ip-172-31-63-244:~/0x03$ export NUM=3.14159265359
 
-oj
+ubuntu@ip-172-31-63-244:~/0x03$ ./13-print_float
 
-ok
+3.14
 
-ol
-
-om
-
-on
-
-op
-
-oq
-
-or
-
-os
-
-julien@ubuntu:/tmp/0x03$
